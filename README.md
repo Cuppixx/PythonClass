@@ -1,3 +1,3 @@
 # PythonClass
 
-For more imformations read the `my_notes.ipynb`.
+For more informations read the `my_notes.ipynb`.
