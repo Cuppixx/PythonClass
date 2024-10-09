@@ -1,0 +1,3 @@
+[submodule "part01/WinBgSwitcher"]
+	path = part01/WinBgSwitcher
+	url = https://github.com/Cuppixx/WinBgSwitcher
