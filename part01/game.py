@@ -1,3 +1,5 @@
+# pylint: skip-file
+# pylint: disable=C0321
 """17+4 card game"""
 import random
 
@@ -7,7 +9,9 @@ deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
 
 def deal_card():
     """Function to deal a card"""
-    return random.choice(deck)
+    card = random.choice(deck)
+    # Implement:  Remove card from deck
+    return card
 
 
 def calculate_score(hand):
@@ -23,10 +27,9 @@ def calculate_score(hand):
 def display_hand(player_hand, dealer_hand, reveal_dealer=False):
     """Function to display hand and score"""
     print(f"Your hand: {player_hand} (Score: {calculate_score(player_hand)})")
-    if reveal_dealer:
-        print(f"Dealer's hand: {dealer_hand} (Score: {calculate_score(dealer_hand)})")
-    else:
-        print(f"Dealer's hand: [{dealer_hand[0]}, ?]")
+
+    if reveal_dealer: print(f"Dealer's hand: {dealer_hand} (Score: {calculate_score(dealer_hand)})")
+    else: print(f"Dealer's hand: [{dealer_hand[0]}, ?]")
 
 
 def play_game():
@@ -38,32 +41,31 @@ def play_game():
 
     while not game_over:
         display_hand(player_hand, dealer_hand)
+
+        # Remove auto play when hitting 21 on the first round!
         if calculate_score(player_hand) == 21:
             print("Blackjack! You win!")
             game_over = True
+
         elif calculate_score(player_hand) > 21:
             print("You busted! Dealer wins.")
             game_over = True
+
         else:
             action = input("Do you want to 'hit' or 'stand'? ").lower()
-            if action == "hit":
-                player_hand.append(deal_card())
-            elif action == "stand":
-                game_over = True
+            if action == "hit": player_hand.append(deal_card())
+            elif action == "stand": game_over = True
 
     if calculate_score(player_hand) <= 21:
-        while calculate_score(dealer_hand) < 17:
-            dealer_hand.append(deal_card())
+        # Implement: Better dealer
+        while calculate_score(dealer_hand) < 17: dealer_hand.append(deal_card())
+
         display_hand(player_hand, dealer_hand, reveal_dealer=True)
 
-        if calculate_score(dealer_hand) > 21:
-            print("Dealer busted! You win.")
-        elif calculate_score(dealer_hand) > calculate_score(player_hand):
-            print("Dealer wins.")
-        elif calculate_score(dealer_hand) < calculate_score(player_hand):
-            print("You win!")
-        else:
-            print("It's a tie!")
+        if calculate_score(dealer_hand) > 21: print("Dealer busted! You win.")
+        elif calculate_score(dealer_hand) > calculate_score(player_hand): print("Dealer wins.")
+        elif calculate_score(dealer_hand) < calculate_score(player_hand): print("You win!")
+        else: print("It's a tie!")
 
 
 play_game()
