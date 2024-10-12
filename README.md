@@ -7,4 +7,6 @@ If you clone this repo make sure to run
 
 if you also want to clone the submodule repositories.
 
+**Make sure to check any submodule repositorie's license!**
+
 For more informations read the `my_notes.ipynb`.
