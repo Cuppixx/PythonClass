@@ -1,3 +1,6 @@
 [submodule "part01/WinBgSwitcher"]
 	path = part01/WinBgSwitcher
 	url = https://github.com/Cuppixx/WinBgSwitcher
+[submodule "part02/aufgabe-1-primzahlen-Cuppixx"]
+	path = part02/aufgabe-1-primzahlen-Cuppixx
+	url = https://github.com/WinfoJP/aufgabe-1-primzahlen-Cuppixx
