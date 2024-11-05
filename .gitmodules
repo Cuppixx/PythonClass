@@ -4,3 +4,6 @@
 [submodule "part02/aufgabe-1-primzahlen-Cuppixx"]
 	path = part02/aufgabe-1-primzahlen-Cuppixx
 	url = https://github.com/WinfoJP/aufgabe-1-primzahlen-Cuppixx
+[submodule "part04/aufgabe-2-objektorientierung-cuppixx"]
+	path = part04/aufgabe-2-objektorientierung-cuppixx
+	url = https://github.com/WinfoJP/aufgabe-2-objektorientierung-cuppixx
