@@ -7,3 +7,6 @@
 [submodule "part04/aufgabe-2-objektorientierung-cuppixx"]
 	path = part04/aufgabe-2-objektorientierung-cuppixx
 	url = https://github.com/WinfoJP/aufgabe-2-objektorientierung-cuppixx
+[submodule "part05/aufgabe-3-sudoku-Cuppixx"]
+	path = part05/aufgabe-3-sudoku-Cuppixx
+	url = https://github.com/WinfoJP/aufgabe-3-sudoku-Cuppixx
