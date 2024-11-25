@@ -10,3 +10,6 @@
 [submodule "part05/aufgabe-3-sudoku-Cuppixx"]
 	path = part05/aufgabe-3-sudoku-Cuppixx
 	url = https://github.com/WinfoJP/aufgabe-3-sudoku-Cuppixx
+[submodule "part06/challenge-1-client-number-validation-Cuppixx"]
+	path = part06/challenge-1-client-number-validation-Cuppixx
+	url = https://github.com/WinfoJP/challenge-1-client-number-validation-Cuppixx
