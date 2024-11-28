@@ -11,9 +11,9 @@ def my_func(num):
     else: my_func(3 * num + 1)
 
 my_func(int(input("Num: ")))
-print(f"My solution: {my_list}")
+print(f"Solution: {my_list}")
 
 
 # Prof's solution:
 def ergebnisliste(func): return [func(i) for i in range(0,10)]
-print(f"My solution: {ergebnisliste(lambda i: i * i)}")
+print(f"Solution: {ergebnisliste(lambda i: i * i)}")
