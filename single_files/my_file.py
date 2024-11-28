@@ -1,5 +1,7 @@
 # pylint: skip-file
 
+
+# My own solution:
 my_list = []
 
 def my_func(num):
@@ -8,8 +10,10 @@ def my_func(num):
     if num % 2 == 0: my_func(num // 2)
     else: my_func(3 * num + 1)
 
-# my_func(int(input("Num: ")))
-# print(my_list)
+my_func(int(input("Num: ")))
+print(f"My solution: {my_list}")
 
+
+# Prof's solution:
 def ergebnisliste(func): return [func(i) for i in range(0,10)]
-print(ergebnisliste(lambda i: i * i))
+print(f"My solution: {ergebnisliste(lambda i: i * i)}")
