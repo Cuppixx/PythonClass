@@ -10,3 +10,6 @@
 [submodule "aufgabe-3-sudoku-Cuppixx"]
 	path = aufgabe-3-sudoku-Cuppixx
 	url = https://github.com/WinfoJP/aufgabe-3-sudoku-Cuppixx
+[submodule "PythonClassFork_Challenge1"]
+	path = PythonClassFork_Challenge1
+	url = https://github.com/Cuppixx/PythonClassFork_Challenge1
