@@ -13,3 +13,6 @@
 [submodule "PythonClassFork_Challenge1"]
 	path = PythonClassFork_Challenge1
 	url = https://github.com/Cuppixx/PythonClassFork_Challenge1
+[submodule "aufgabe-4-notenverwaltung-cuppixx"]
+	path = aufgabe-4-notenverwaltung-cuppixx
+	url = https://github.com/WinfoJP/aufgabe-4-notenverwaltung-cuppixx
