@@ -19,3 +19,6 @@
 [submodule "aufgabe-5-snake-cuppixx"]
 	path = aufgabe-5-snake-cuppixx
 	url = https://github.com/WinfoJP/aufgabe-5-snake-cuppixx
+[submodule "PythonClassFork_Challenge2"]
+	path = PythonClassFork_Challenge2
+	url = https://github.com/Cuppixx/PythonClassFork_Challenge2
