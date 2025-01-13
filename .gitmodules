@@ -16,3 +16,6 @@
 [submodule "aufgabe-4-notenverwaltung-cuppixx"]
 	path = aufgabe-4-notenverwaltung-cuppixx
 	url = https://github.com/WinfoJP/aufgabe-4-notenverwaltung-cuppixx
+[submodule "aufgabe-5-snake-cuppixx"]
+	path = aufgabe-5-snake-cuppixx
+	url = https://github.com/WinfoJP/aufgabe-5-snake-cuppixx
